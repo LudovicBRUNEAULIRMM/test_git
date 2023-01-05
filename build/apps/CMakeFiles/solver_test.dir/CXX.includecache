@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/solver.h
+stdio.h
+-
+cmath
+../include/cmath
+
+/home/ludovic/Desktop/M2_Projet/Project/apps/solver_test.cpp
+solver.h
+/home/ludovic/Desktop/M2_Projet/Project/apps/solver.h
+iostream
+-
+cmath
+-
+
